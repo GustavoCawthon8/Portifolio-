@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Projetos</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+
+    }
+
+    body {
+      height: 100vh;
+      margin: 0;
+      background: linear-gradient(to right, #771FFF 50%, #B50FFF 50%);
+    }
+
+    /*
+    #header {
+      position: absolute;
+      background: #0002fd;
+      width: 100%;
+      height: 300px;
+      border-radius: 0px 0px 50px 50px;
+    }
+    */
+
+    #banner {
+      position: absolute;
+      width: 100%;
+      height: 260px;
+      border-radius: 0px 0px 50px 50px;
+    }
+
+    #projects {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      padding: 20px;
+      border-radius: 40px 40px 0 0;
+      margin-top: 130px;
+      position: absolute;
+      top: 100px;
+    }
+
+    .projects {
+      background: #8515B0;
+      width: 100%;
+      max-width: 300px;
+      margin: 30px;
+      padding: 20px;
+      border-radius: 15px;
+      text-align: center;
+      transition: transform 0.3s ease;
+      color: white;
+    }
+
+    .projects:hover {
+      transform: scale(1.05);
+    }
+
+    .projects img {
+      width: 100px;
+      height: 150px;
+      border-radius: 10px;
+      margin-bottom: 15px;
+    }
+
+    .projects p {
+      font-size: 1.1rem;
+      margin-bottom: 15px;
+      color: white;
+    }
+
+    .projects a {
+      display: inline-block;
+      background-color: #0BBF0D;
+      padding: 10px 20px;
+      border-radius: 5px;
+      color: white;
+      text-decoration: none;
+      transition: background-color 0.3s ease;
+      user-select: none;
+    }
+
+    .projects a:hover {
+      background-color: #079b09;
+    }
+
+    @media (min-width: 768px) {
+      #banner {
+        height: 250px;
+        width: 400px;
+        left: 50%;
+        transform: translate(-50%);
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <main id="container_app">
+    <section id="header">
+      <img id="banner" src="../img/banner_projetos2.png">
+    </section>
+
+    <section id="projects">
+
+      <nav class="projects" id="project1">
+        <img src="../img_projeto/projeto1.png">
+        <h2>Projeto Vídeo é Saude</h2>
+        <p>Feito em a 2 horas, eu usei as tecnologias html, css</p>
+        <a href='https://vidaesaude.netlify.app/'>acessar</a>
+      </nav>
+
+      <nav class="projects" id="project2">
+        <img src="../img_projeto/projeto2.png">
+        <h2>Projeto de MP3</h2>
+        <p>Feito em 1 dia, nele eu não tive tanta dificuldade, eu usei as tecnologias html, css, JavaScript, Bootstrap icons</p>
+        <a href='https://gustavo-musica.netlify.app/'>acessar</a>
+      </nav>
+
+      <nav class="projects" id="project3">
+        <img src="../img_projeto/projeto3.png">
+        <h2>Gerenciador de Tarefas</h2>
+        <p>Eu fiz esse projeto no começo dos meus estudos de JavaScript, eu usei as tecnologias html, css, JavaScript</p>
+        <a href='https://gerenciadordetarefass.netlify.app/'>acessar</a>
+      </nav>
+
+      <nav class="projects" id="project4">
+        <img src="../img_projeto/projeto4.png">
+        <h2>Calculadora</h2>
+        <p>Eu fiz esse projeto no começo dos meus estudos de JavaScript, eu usei as tecnologias html, css, JavaScript</p>
+        <a href='https://calculadoraprof.netlify.app/'>acessar</a>
+      </nav>
+
+      <nav class="projects" id="project5">
+        <img src="../img_projeto/projeto5.png">
+        <h2>Multiplicando bolinhas</h2>
+        <p>Eu fiz esse projeto para treinar a minha lógica de programação, nele eu usei as tecnologias, html, css, JavaScript</p>
+        <a href='https://multiplicabolinhas.netlify.app/'>acessar</a>
+      </nav>
+
+      <nav class="projects" id="project6">
+        <img src="../img_projeto/projeto6.png">
+        <h2>Jogo 3d</h2>
+        <p>Esse aqui eu meu primeiro jogo 3d, eu fiz ele para testa minha logica e minha habilidade em 3d, usei as tecnologias, html, css, JavaScript, threejs</p>
+        <a href="https://horizontecraft.netlify.app/">acessar</a>
+      </nav>
+
+      <nav class="projects" id="project7">
+        <img src="../img_projeto/projeto7.png">
+        <h2>Advinhe o Número</h2>
+        <p>Projeto para passar seu temoo tentando advinhar números, feito com bootstrap é JavaScript</p>
+        <a href="https://gustavocawthon8.github.io/Advinhe-o-numero/">acessar</a>
+      </nav>
+
+      <nav class="projects" id="project8">
+        <img src="../img_projeto/projeto8.png">
+        <h2>Jogo do Bau</h2>
+        <p>Mini game de pegar moedas com bau, feito em 30 minutos, feito com html, css, bootstrap icons, JavaScript</p>
+        <a href="https://gustavocawthon8.github.io/Jogo-de-bau/">acessar</a>
+      </nav>
+
+    </section>
+  </main>
+
+</body>
+
+</html>
