@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Projetos</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Arial', sans-serif;
+    }
+
+    body {
+      background: linear-gradient(135deg, #f5f5f5 0%, #E0E0E0 100%);
+      color: #333;
+      line-height: 1.6;
+    }
+
+    #banner {
+      position: relative;
+      width: 100%;
+      height: 260px;
+      background: url('../img/banner.jpg') no-repeat center center/cover;
+      border-radius: 0px 0px 50px 50px;
+      box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    }
+
+    #projects {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      padding: 40px 20px;
+    }
+
+    #projectBackground {
+      background: #fff;
+      border-radius: 30px;
+      padding: 40px 20px;
+      box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.2);
+      margin: -60px auto 0 auto;
+      max-width: 1000px
+    }
+
+    .projects {
+      background: #4a148c;
+      width: 100%;
+      max-width: 300px;
+      margin: 20px auto;
+      padding: 25px;
+      border-radius: 20px;
+      text-align: center;
+      color: white;
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+      transform: scale(0.9);
+    }
+
+    .projects:hover {
+      transform: scale(1);
+      box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+    }
+
+    .projects img {
+      width: 120px;
+      height: 180px;
+      object-fit: cover;
+      border-radius: 10px;
+      margin-bottom: 20px;
+      box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    .projects h2 {
+      font-size: 1.5rem;
+      margin-bottom: 15px;
+      color: #ffeb3b;
+    }
+
+    .projects p {
+      font-size: 1rem;
+      margin-bottom: 20px;
+      color: #d1c4e9;
+      text-align: justify;
+    }
+
+    .projects a {
+      display: inline-block;
+      background-color: #ff5722;
+      padding: 12px 30px;
+      border-radius: 25px;
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+      transition: background-color 0.3s ease;
+    }
+
+    .projects a:hover {
+      background-color: #e64a19;
+    }
+
+    #msg {
+      font-family: 'Arial', sans-serif;
+      font-size: 2rem;
+      color: #424242;
+      margin: 40px 0;
+      text-align: center;
+    }
+
+    /* Responsivo */
+    @media (min-width: 768px) {
+      #projectBackground {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+      }
+
+      .projects {
+        flex: 0 1 calc(50% - 40px);
+        max-width: calc(50% - 40px);
+      }
+    }
+
+    @media (min-width: 1024px) {
+      .projects {
+        flex: 0 1 calc(33.33% - 40px);
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <main id="container_app">
+
+<section id="projects">
+  <h1>  ........</h1>
+  <div id="projectBackground">
+    <nav class="projects" id="project1">
+      <img src="../img_projeto/projeto1.png">
+      <h2>Projeto Vida e Saúde</h2>
+      <p>Projeto feito em 2 horas, sobre receitas saudáveis. As tecnologias utilizadas foram HTML e CSS.</p>
+      <a href='https://vidaesaude.netlify.app/'>acessar</a>
+    </nav>
+
+    <nav class="projects" id="project2">
+      <img src="../img_projeto/projeto2.png">
+      <h2>Projeto de MP3</h2>
+      <p>Projeto de música feito em 1 dia, sem muita dificuldade. As tecnologias utilizadas foram HTML, CSS, JavaScript e Bootstrap Icons.</p>
+      <a href='https://gustavo-musica.netlify.app/'>acessar</a>
+    </nav>
+
+    <nav class="projects" id="project3">
+      <img src="../img_projeto/projeto3.png">
+      <h2>Gerenciador de Tarefas</h2>
+      <p>Projeto desenvolvido no início dos meus estudos de JavaScript. As tecnologias utilizadas foram HTML, CSS e JavaScript.</p>
+      <a href='https://gerenciadordetarefass.netlify.app/'>acessar</a>
+    </nav>
+
+    <nav class="projects" id="project4">
+      <img src="../img_projeto/projeto4.png">
+      <h2>Calculadora</h2>
+      <p>Projeto simples de calculadora. As tecnologias utilizadas foram HTML, CSS e JavaScript.</p>
+      <a href='https://calculadoraprof.netlify.app/'>acessar</a>
+    </nav>
+
+    <nav class="projects" id="project5">
+      <img src="../img_projeto/projeto5.png">
+      <h2>Multiplicando Bolinhas</h2>
+      <p>Projeto para treinar lógica de programação. As tecnologias utilizadas foram HTML, CSS e JavaScript.</p>
+      <a href='https://multiplicabolinhas.netlify.app/'>acessar</a>
+    </nav>
+
+    <nav class="projects" id="project6">
+      <img src="../img_projeto/projeto6.png">
+      <h2>Jogo 3D</h2>
+      <p>Primeiro jogo 3D, criado para testar minha lógica e habilidade com 3D. As tecnologias utilizadas foram HTML, CSS, JavaScript e Three.js.</p>
+      <a href="https://horizontecraft.netlify.app/">acessar</a>
+    </nav>
+
+    <nav class="projects" id="project7">
+      <img src="../img_projeto/projeto7.png">
+      <h2>Advinhe o Número</h2>
+      <p>Projeto para diversão, tentando adivinhar números. As tecnologias utilizadas foram Bootstrap e JavaScript.</p>
+      <a href="https://gustavocawthon8.github.io/Advinhe-o-numero/">acessar</a>
+    </nav>
+
+    <nav class="projects" id="project8">
+      <img src="../img_projeto/projeto8.png">
+      <h2>Jogo do Baú</h2>
+      <p>Mini game de coletar moedas com um baú, feito em 30 minutos. As tecnologias utilizadas foram HTML, CSS, Bootstrap Icons e JavaScript.</p>
+      <a href="https://gustavocawthon8.github.io/Jogo-de-bau/">acessar</a>
+    </nav>
+  </div>
+</section>
+  </main>
+
+</body>
+
+</html>
