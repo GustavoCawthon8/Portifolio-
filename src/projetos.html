@@ -13,6 +13,13 @@
       font-family: 'Arial', sans-serif;
     }
 
+    img {
+      pointer-events: none;
+      user-select: none;
+      -webkit-pointer-events: none;
+      -webkit-user-select: none;
+    }
+
     body {
       background: linear-gradient(135deg, #f5f5f5 0%, #E0E0E0 100%);
       color: #333;
@@ -133,66 +140,89 @@
 <body>
   <main id="container_app">
 
-<section id="projects">
-  <h1>  ........</h1>
-  <div id="projectBackground">
-    <nav class="projects" id="project1">
-      <img src="../img_projeto/projeto1.png">
-      <h2>Projeto Vida e Saúde</h2>
-      <p>Projeto feito em 2 horas, sobre receitas saudáveis. As tecnologias utilizadas foram HTML e CSS.</p>
-      <a href='https://vidaesaude.netlify.app/'>acessar</a>
-    </nav>
+    <section id="projects">
+      <h1> ........</h1>
 
-    <nav class="projects" id="project2">
-      <img src="../img_projeto/projeto2.png">
-      <h2>Projeto de MP3</h2>
-      <p>Projeto de música feito em 1 dia, sem muita dificuldade. As tecnologias utilizadas foram HTML, CSS, JavaScript e Bootstrap Icons.</p>
-      <a href='https://gustavo-musica.netlify.app/'>acessar</a>
-    </nav>
+      <div id="projectBackground">
+        <nav class="projects" id="project11">
+          <img src="../img_projeto/projeto11.png">
+          <h2>Jogo da Velha</h2>
+          <p>Projeto feito em 37 minutos. jogo da velha para jogar com os amigos, feito com html, css e javascript.</p>
+          <a href='https://jogodavelha2p.netlify.app/'>acessar</a>
+        </nav>
 
-    <nav class="projects" id="project3">
-      <img src="../img_projeto/projeto3.png">
-      <h2>Gerenciador de Tarefas</h2>
-      <p>Projeto desenvolvido no início dos meus estudos de JavaScript. As tecnologias utilizadas foram HTML, CSS e JavaScript.</p>
-      <a href='https://gerenciadordetarefass.netlify.app/'>acessar</a>
-    </nav>
+        <div id="projectBackground">
+          <nav class="projects" id="project10">
+            <img src="../img_projeto/projeto10.png">
+            <h2>App de viagem</h2>
+            <p>Projeto feito em 14 minutos. site flexível para qualquer dispositivos, feito com html e css flexbox</p>
+            <a href='https://viagemapp.netlify.app/'>acessar</a>
+          </nav>
 
-    <nav class="projects" id="project4">
-      <img src="../img_projeto/projeto4.png">
-      <h2>Calculadora</h2>
-      <p>Projeto simples de calculadora. As tecnologias utilizadas foram HTML, CSS e JavaScript.</p>
-      <a href='https://calculadoraprof.netlify.app/'>acessar</a>
-    </nav>
+          <nav class="projects" id="project9">
+            <img src="../img_projeto/projeto9.png">
+            <h2>App de música moderno</h2>
+            <p>Projeto feito em 45 minutos. interativo, funcional, desenvolvido com html, css com flexbox e javascript..</p>
+            <a href='https://appmusicamoderno.netlify.app/'>acessar</a>
+          </nav>
 
-    <nav class="projects" id="project5">
-      <img src="../img_projeto/projeto5.png">
-      <h2>Multiplicando Bolinhas</h2>
-      <p>Projeto para treinar lógica de programação. As tecnologias utilizadas foram HTML, CSS e JavaScript.</p>
-      <a href='https://multiplicabolinhas.netlify.app/'>acessar</a>
-    </nav>
+          <nav class="projects" id="project1">
+            <img src="../img_projeto/projeto1.png">
+            <h2>Projeto Vida e Saúde</h2>
+            <p>Projeto feito em 2 horas, sobre receitas saudáveis. As tecnologias utilizadas foram HTML e CSS.</p>
+            <a href='https://vidaesaude.netlify.app/'>acessar</a>
+          </nav>
 
-    <nav class="projects" id="project6">
-      <img src="../img_projeto/projeto6.png">
-      <h2>Jogo 3D</h2>
-      <p>Primeiro jogo 3D, criado para testar minha lógica e habilidade com 3D. As tecnologias utilizadas foram HTML, CSS, JavaScript e Three.js.</p>
-      <a href="https://horizontecraft.netlify.app/">acessar</a>
-    </nav>
+          <nav class="projects" id="project2">
+            <img src="../img_projeto/projeto2.png">
+            <h2>Projeto de MP3</h2>
+            <p>Projeto de música feito em 1 dia, sem muita dificuldade. As tecnologias utilizadas foram HTML, CSS, JavaScript e Bootstrap Icons.</p>
+            <a href='https://gustavo-musica.netlify.app/'>acessar</a>
+          </nav>
 
-    <nav class="projects" id="project7">
-      <img src="../img_projeto/projeto7.png">
-      <h2>Advinhe o Número</h2>
-      <p>Projeto para diversão, tentando adivinhar números. As tecnologias utilizadas foram Bootstrap e JavaScript.</p>
-      <a href="https://gustavocawthon8.github.io/Advinhe-o-numero/">acessar</a>
-    </nav>
+          <nav class="projects" id="project3">
+            <img src="../img_projeto/projeto3.png">
+            <h2>Gerenciador de Tarefas</h2>
+            <p>Projeto desenvolvido no início dos meus estudos de JavaScript. As tecnologias utilizadas foram HTML, CSS e JavaScript.</p>
+            <a href='https://gerenciadordetarefass.netlify.app/'>acessar</a>
+          </nav>
 
-    <nav class="projects" id="project8">
-      <img src="../img_projeto/projeto8.png">
-      <h2>Jogo do Baú</h2>
-      <p>Mini game de coletar moedas com um baú, feito em 30 minutos. As tecnologias utilizadas foram HTML, CSS, Bootstrap Icons e JavaScript.</p>
-      <a href="https://gustavocawthon8.github.io/Jogo-de-bau/">acessar</a>
-    </nav>
-  </div>
-</section>
+          <nav class="projects" id="project4">
+            <img src="../img_projeto/projeto4.png">
+            <h2>Calculadora</h2>
+            <p>Projeto simples de calculadora. As tecnologias utilizadas foram HTML, CSS e JavaScript.</p>
+            <a href='https://calculadoraprof.netlify.app/'>acessar</a>
+          </nav>
+
+          <nav class="projects" id="project5">
+            <img src="../img_projeto/projeto5.png">
+            <h2>Multiplicando Bolinhas</h2>
+            <p>Projeto para treinar lógica de programação. As tecnologias utilizadas foram HTML, CSS e JavaScript.</p>
+            <a href='https://multiplicabolinhas.netlify.app/'>acessar</a>
+          </nav>
+
+          <nav class="projects" id="project6">
+            <img src="../img_projeto/projeto6.png">
+            <h2>Jogo 3D</h2>
+            <p>Primeiro jogo 3D, criado para testar minha lógica e habilidade com 3D. As tecnologias utilizadas foram HTML, CSS, JavaScript e Three.js.</p>
+            <a href="https://horizontecraft.netlify.app/">acessar</a>
+          </nav>
+
+          <nav class="projects" id="project7">
+            <img src="../img_projeto/projeto7.png">
+            <h2>Advinhe o Número</h2>
+            <p>Projeto para diversão, tentando adivinhar números. As tecnologias utilizadas foram Bootstrap e JavaScript.</p>
+            <a href="https://gustavocawthon8.github.io/Advinhe-o-numero/">acessar</a>
+          </nav>
+
+          <nav class="projects" id="project8">
+            <img src="../img_projeto/projeto8.png">
+            <h2>Jogo do Baú</h2>
+            <p>Mini game de coletar moedas com um baú, feito em 30 minutos. As tecnologias utilizadas foram HTML, CSS, Bootstrap Icons e JavaScript.</p>
+            <a href="https://gustavocawthon8.github.io/Jogo-de-bau/">acessar</a>
+          </nav>
+        </div>
+    </section>
   </main>
 
 </body>
